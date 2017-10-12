@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/football">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="#0288D1"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="Team A!"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#E0E0E0"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="0"
+
+                android:textColor="#000000"
+                android:textSize="54sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#E0E0E0"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="54sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0288D1"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="Team B!"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yellowA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="#FFFF00"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/redA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#F44336"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/yellowB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:background="#FFFF00"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="44sp" />
+
+            <TextView
+                android:id="@+id/redB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#F44336"
+                android:padding="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="44sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="220dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/goalA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#E0E0E0"
+                    android:onClick="goalA"
+                    android:text="GOAL!!" />
+
+                <Button
+                    android:id="@+id/cardYA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#E0E0E0"
+                    android:onClick="cardYA"
+                    android:text="YELLOW CARD" />
+
+                <Button
+                    android:id="@+id/cardRA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#E0E0E0"
+                    android:onClick="cardRA"
+                    android:text="RED CARD" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/goalB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#E0E0E0"
+                    android:onClick="goalB"
+                    android:text="GOAL!!" />
+
+                <Button
+                    android:id="@+id/cardYB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#E0E0E0"
+                    android:onClick="cardYB"
+                    android:text="YELLOW CARD" />
+
+                <Button
+                    android:id="@+id/cardRB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="#E0E0E0"
+                    android:onClick="cardRB"
+                    android:text="RED CARD" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="440dp">
+
+            <Button
+                android:id="@+id/rest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:background="#E0E0E0"
+                android:onClick="rest"
+                android:text="  rest scores  " />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
